@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    background-color: grey;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+}
